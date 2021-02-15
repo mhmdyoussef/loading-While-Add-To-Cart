@@ -1,0 +1,1 @@
+This shows loading on click Add to cart button working with WooCommerce
