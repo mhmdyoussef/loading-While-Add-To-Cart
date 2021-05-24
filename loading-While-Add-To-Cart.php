@@ -14,8 +14,8 @@
         jQuery(document).ready(function(){
             jQuery(".single_add_to_cart_button").click(function(){
                 jQuery(this).text("Loading...");
+                setTimeout(function () { jQuery('.single_add_to_cart_button').text('Add to Cart')}, 5000);
             });
-            setTimeout(function () { jQuery('.single_add_to_cart_button').text('Add to Cart')}, 5000);
         });
     </script>
     <?php
