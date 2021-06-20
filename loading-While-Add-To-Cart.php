@@ -7,6 +7,8 @@
 *Version: 1.1
 */
 
+defined ( 'ABSPATH' ) or die( 'Hey, You can\'t access this file!' );
+    
     add_action('wp_footer', 'add_my_code');
     function add_my_code() {
     ?>
